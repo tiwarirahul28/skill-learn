@@ -10,8 +10,6 @@ import Html from './Pages/Html';
 import Css from './Pages/Css';
 import JavaScript from './Pages/Javascript';
 import Git from './Pages/Git';
-// import React from './Pages/ReatJS';
-// import React from 'react';
 
 
 function App() {

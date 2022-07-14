@@ -1,7 +1,6 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import htmlimg from '../assests/images/html-1.png'
-import author from '../assests/images/person-1.png'
+import HtmlData from '../Data/HtmData';
+import Cards from '../components/cards/CardBox';
 
 const Html = () => {
     return (
@@ -9,42 +8,17 @@ const Html = () => {
         <section className='home-section'>
             <div className="text">HTML</div>
             <div className="card">
-                <div className="cardbox">
-                    <div className="imgbox">
-                        <img src={htmlimg} alt=""/>
-                    </div>
-                    <div className="infobox">
-                        <h1>HTML Full Course - Build a Website Tutorial</h1>
-                        <div className="person">
-                            <img src={author} alt=""/>
-                            <NavLink to="#">freeCodeCamp.org</NavLink>
-                        </div>
-                    </div>
-                </div>
-                <div className="cardbox">
-                    <div className="imgbox">
-                        <img src={htmlimg} alt=""/>
-                    </div>
-                    <div className="infobox">
-                        <h1>HTML Full Course - Build a Website Tutorial</h1>
-                        <div className="person">
-                            <img src={author} alt=""/>
-                            <NavLink to="#">freeCodeCamp.org</NavLink>
-                        </div>
-                    </div>
-                </div>
-                <div className="cardbox">
-                    <div className="imgbox">
-                        <img src={htmlimg} alt=""/>
-                    </div>
-                    <div className="infobox">
-                        <h1>HTML Full Course - Build a Website Tutorial</h1>
-                        <div className="person">
-                            <img src={author} alt=""/>
-                            <NavLink to="#">freeCodeCamp.org</NavLink>
-                        </div>
-                    </div>
-                </div>
+                {HtmlData.map((value) => {
+                    return(
+                        <Cards
+                            img={value.img}
+                            heading={value.heading}
+                            authImg={value.authImg}
+                            authName={value.authName}
+                            authLink={value.authLink}
+                        />
+                    )
+                })}
             </div>
         </section>
         </>

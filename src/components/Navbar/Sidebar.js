@@ -1,22 +1,22 @@
-import React from 'react'
+import {React, useState} from 'react'
 import './Sidebar.css'
 import logo from '../../assests/images/logo.png'
 import { NavLink } from 'react-router-dom'
 import {AiOutlineMenu, AiOutlineHtml5, AiFillGithub} from 'react-icons/ai'
 import {DiCss3, DiJavascript} from 'react-icons/di'
-// import {GrReactjs} from 'react-icons/gr'
 
 const Sidebar = () => {
+    const [Show, setstate] = useState(false);
     return (
         <>
-        <div className='sidebar'>
+        <div className={Show ? "sidebar open" : "sidebar"}>
             <div className='logo-details'>
                 <div className="logo_name">
                     <img src={logo} alt=""/>
                 </div>
-                <i className='bx bx-menu' id="btn" ><AiOutlineMenu/></i>
+                <i className='bx bx-menu' onClick={() => setstate(!Show)} id="btn" ><AiOutlineMenu/></i>
             </div>
-            <ul className='nav-list'>
+            <ul className="nav-list">
                 <li>
                     <NavLink to="/" exact>
                         <i class='bx'><AiOutlineHtml5/></i>

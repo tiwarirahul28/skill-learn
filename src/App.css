@@ -6,6 +6,10 @@
   font-family: "Poppins" , sans-serif;
   text-decoration: none;
 }
+html{
+  scroll-behavior: smooth;
+}
+
 @media (max-width: 420px) {
   .sidebar li .tooltip{
     display: none;
