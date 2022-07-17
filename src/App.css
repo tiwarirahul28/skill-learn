@@ -5,6 +5,7 @@
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
   text-decoration: none;
+  text-transform: capitalize;
 }
 html{
   scroll-behavior: smooth;
@@ -18,29 +19,36 @@ html{
 
 .card{
   position: relative;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .cardbox{
-  display: flex;
+  width: 275px;
   background: #F6F6F6;
-  margin: 20px 0;
+  margin: 20px;
 }
 
 .imgbox{
-  background: #d1d0d0;
+  padding: 10px;
   border-radius: 10px;
-  margin-left: 60px;
 }
+
+.imgbox img{
+  width: 100%;
+}
+
 .infobox{
   position: relative;
   width: 100%;
   padding-left: 20px;
-  margin: 20px 0;
 }
 
 .infobox h1{
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1px;
   color: #000;
 }
 
@@ -51,31 +59,36 @@ html{
 }
 
 .person a{
-  font-size: 16px;
+  font-size: 14px;
   color: #000000;
   padding: 0 20px;
+}
+.person img{
+  width: 45px;
 }
 /* responsive */
 
 @media screen and (max-width: 991px){
   .card{
-      padding: 10px;
+    padding: 10px;
+    justify-content: space-evenly;
   }
   .cardbox{
-      display: flex;
-      flex-direction: column;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
   }
 
   .imgbox{
-      margin-left: 0;
-      text-align: center;
+    margin-left: 0;
+    text-align: center;
   }
   .infobox{
-      padding: 0 10px;
+    padding: 0 10px;
   }
   .infobox h1{
-      font-size: 18px;
-      color: #000;
+    font-size: 18px;
+    color: #000;
   }
 }
   

@@ -7,14 +7,14 @@ const CardBox = ({img, heading, authImg, authLink, authName}) => {
         <>
         <div className="cardbox">
             <div className="imgbox">
-                {/* <NavLink to={authLink}> */}
-                    <img src={img} alt=""/>
-                {/* </NavLink> */}
+                <NavLink to={authLink}>
+                    <img src={img} alt="logo"/>
+                </NavLink>
             </div>
             <div className="infobox">
                 <h1>{heading}</h1>
                 <div className="person">
-                    <img src={authImg} alt=""/>
+                    <img src={authImg} alt="logo"/>
                     <NavLink to={authLink}>{authName}</NavLink>
                 </div>
             </div>
