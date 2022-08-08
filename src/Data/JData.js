@@ -14,21 +14,21 @@ const JData =[
         img: JLogo,
         heading: 'JavaSCript Tutorial',
         authImg: cwhlogo,
-        authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT',
+        authLink: '',
         authName: 'Yahoo Baba'
     },
     {
         img: JLogo,
         heading: 'JavaSCript Tutorial',
         authImg: TTlogo,
-        authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT',
-        authName: 'Yahoo Baba'
+        authLink: 'https://www.youtube.com/playlist?list=PLwGdqUZWnOp1hqyT6h7pY0RlXIIGlE5U0',
+        authName: 'Thapa Technical'
     },
     {
         img: JLogo,
         heading: 'JavaSCript Tutorial',
         authImg: yblogo,
-        authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT',
+        authLink: '',
         authName: 'Yahoo Baba'
     },
 ]
