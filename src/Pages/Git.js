@@ -1,10 +1,25 @@
 import React from 'react'
+import Cards from '../components/cards/CardBox'
+import GData from '../Data/GData'
 
 const Git = () => {
     return (
         <>
-        <section class="home-section">
-            <div class="text">Git</div>
+        <section className="home-section">
+            <div className="text">Git</div>
+            <div className="card">
+                {GData.map((value) => {
+                    return(
+                        <Cards 
+                            img={value.img}
+                            heading={value.heading}
+                            authImg={value.authImg}
+                            authName={value.authName}
+                            authLink={value.authLink}
+                        />
+                    )
+                })}
+            </div>
         </section> 
         </>
     )

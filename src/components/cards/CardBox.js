@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
+// import { NavLink } from 'react-router-dom'
 
 
 const CardBox = ({img, heading, authImg, authLink, authName}) => {
@@ -7,15 +7,15 @@ const CardBox = ({img, heading, authImg, authLink, authName}) => {
         <>
         <div className="cardbox">
             <div className="imgbox">
-                <NavLink to={authLink}>
+                <a href={authLink}>
                     <img src={img} alt="logo"/>
-                </NavLink>
+                </a>
             </div>
             <div className="infobox">
                 <h1>{heading}</h1>
                 <div className="person">
                     <img src={authImg} alt="logo"/>
-                    <NavLink to={authLink}>{authName}</NavLink>
+                    <a href={authLink}>{authName}</a>
                 </div>
             </div>
         </div>  

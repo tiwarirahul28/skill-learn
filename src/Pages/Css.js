@@ -6,8 +6,8 @@ import Cards from '../components/cards/CardBox';
 const Css = () => {
     return (
         <>
-        <section class="home-section">
-            <div class="text">Css</div>
+        <section className="home-section">
+            <div className="text">Css</div>
             <div className="card">
                 {CssData.map((value) => {
                     return(

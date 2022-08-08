@@ -5,8 +5,8 @@ import Cards from '../components/cards/CardBox';
 const Javascript = () => {
     return (
         <>
-        <section class="home-section">
-            <div class="text">JavaScript</div>
+        <section className="home-section">
+            <div className="text">JavaScript</div>
             <div className="card">
                 {JData.map((value) => {
                     return(
