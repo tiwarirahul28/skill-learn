@@ -7,15 +7,17 @@ const CardBox = ({img, heading, authImg, authLink, authName}) => {
         <>
         <div className="cardbox">
             <div className="imgbox">
-                <a href={authLink}>
+                <a href={authLink} rel="noreferrer" target="_blank">
                     <img src={img} alt="logo"/>
                 </a>
             </div>
             <div className="infobox">
-                <h1>{heading}</h1>
+                <a href={authLink} rel="noreferrer" target="_blank">
+                    <h1>{heading}</h1>
+                </a>
                 <div className="person">
                     <img src={authImg} alt="logo"/>
-                    <a href={authLink}>{authName}</a>
+                    <a href={authLink} rel="noreferrer" target="_blank">{authName}</a>
                 </div>
             </div>
         </div>  

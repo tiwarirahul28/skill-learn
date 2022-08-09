@@ -2,8 +2,8 @@ import {React, useState} from 'react'
 import './Sidebar.css'
 import logo from '../../assests/images/logo.png'
 import { NavLink } from 'react-router-dom'
-import {AiOutlineMenu, AiOutlineHtml5, AiFillGithub} from 'react-icons/ai'
-import {DiCss3, DiJavascript} from 'react-icons/di'
+import {AiOutlineMenu, AiOutlineHtml5} from 'react-icons/ai'
+import {DiCss3, DiJavascript, DiJavascript1} from 'react-icons/di'
 
 const Sidebar = () => {
     const [Show, setstate] = useState(false);
@@ -33,7 +33,7 @@ const Sidebar = () => {
                 </li>
                 <li>
                     <NavLink to="/javascript" exact>
-                        <i class='bx'><DiJavascript/></i>
+                        <i class='bx'><DiJavascript1/></i>
                         <span class="links_name">JavaScript</span>
                     </NavLink>
                     <span class="tooltip">JavaScript</span>
@@ -47,10 +47,10 @@ const Sidebar = () => {
                 </li> */}
                 <li>
                     <NavLink to="/git" exact>
-                        <i class='bx'><AiFillGithub/></i>
-                        <span class="links_name">Git</span>
+                        <i class='bx'><DiJavascript/></i>
+                        <span class="links_name">Advanced JavaScript</span>
                     </NavLink>
-                    <span class="tooltip">Git</span>
+                    <span class="tooltip">Advanced JavaScript</span>
                 </li>
             </ul>
         </div>

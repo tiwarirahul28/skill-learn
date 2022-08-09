@@ -6,7 +6,7 @@ const Git = () => {
     return (
         <>
         <section className="home-section">
-            <div className="text">Git</div>
+            <div className="text">Advanced JavaScript</div>
             <div className="card">
                 {GData.map((value) => {
                     return(
