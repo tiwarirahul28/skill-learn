@@ -27,7 +27,7 @@ const GitData = [
         authImg: coltsteele,
         level: "Advance",
         authLink: 'https://www.youtube.com/watch?v=nhNq2kIvi9s',
-        authName: 'The Net Ninja'
+        authName: 'Colt Steele'
     }
 ]
 export default GitData;
