@@ -5,7 +5,7 @@ import GData from '../Data/GData'
 const Git = () => {
     return (
         <>
-        <section className="home-section">
+        <section className="home-section open">
             <div className="text">Advanced JavaScript</div>
             <div className="card">
                 {GData.map((value) => {

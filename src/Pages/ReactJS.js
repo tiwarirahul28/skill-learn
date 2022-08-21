@@ -1,15 +1,14 @@
 import React from 'react'
-import HtmlData from '../Data/HtmData';
 import Cards from '../components/cards/CardBox';
+import ReactData from '../Data/ReactData';
 
-const Html = () => {
+const ReactJS = () => {
     return (
         <>
-        <section className='home-section open'>
-            <div className="text">HTML</div>
-            {/* <div className='paragraph'>The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</div> */}
+        <section className="home-section open">
+            <div className="text">React JS</div>
             <div className="card">
-                {HtmlData.map((value) => {
+            {ReactData.map((value) => {
                     return(
                         <Cards
                             img={value.img}
@@ -22,9 +21,9 @@ const Html = () => {
                     )
                 })}
             </div>
-        </section>
+        </section>  
         </>
     )
 }
 
-export default Html
+export default ReactJS

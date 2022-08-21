@@ -12,6 +12,7 @@ const CssData = [
         img: cssImgOne,
         heading: 'CSS Tutorial in Hindi / Urdu',
         authImg: yblogo,
+        level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw',
         authName: 'Yahoo Baba'
     },
@@ -19,6 +20,7 @@ const CssData = [
         img: EJcss,
         heading: 'CSS Tutorial for Beginners',
         authImg: EJlogo,
+        level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C',
         authName: 'EJ Media'
     },
@@ -26,6 +28,7 @@ const CssData = [
         img: Techcss,
         heading: 'CSS Tutorial in Hindi',
         authImg: TGlogo,
+        level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLjpp5kBQLNTSFXXi-bfskBXG178FGkftU',
         authName: 'Tech Gun'
     },
@@ -33,6 +36,7 @@ const CssData = [
         img: Ninjacss,
         heading: 'CSS Tutorials For Beginners',
         authImg: TNNlogo,
+        level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT',
         authName: 'The Net Ninja'
     },

@@ -2,8 +2,11 @@ import {React, useState} from 'react'
 import './Sidebar.css'
 import logo from '../../assests/images/logo.png'
 import { NavLink } from 'react-router-dom'
-import {AiOutlineMenu, AiOutlineHtml5} from 'react-icons/ai'
-import {DiCss3, DiJavascript, DiJavascript1} from 'react-icons/di'
+import {AiOutlineMenu, AiOutlineHtml5, AiFillGithub} from 'react-icons/ai'
+import {DiCss3, DiJavascript, DiJavascript1, DiNodejs, DiMongodb} from 'react-icons/di'
+import {RiReactjsLine} from 'react-icons/ri'
+import {TbBrandNextjs} from 'react-icons/tb'
+
 
 const Sidebar = () => {
     const [Show, setstate] = useState(false);
@@ -38,19 +41,47 @@ const Sidebar = () => {
                     </NavLink>
                     <span class="tooltip">JavaScript</span>
                 </li>
-                {/* <li>
-                    <NavLink to="/react">
-                        <i class='bx'><GrReactjs/></i>
-                        <span class="links_name">React Js</span>
-                    </NavLink>
-                    <span class="tooltip">React Js</span>
-                </li> */}
                 <li>
-                    <NavLink to="/git" exact>
+                    <NavLink to="/github">
+                        <i class='bx'><AiFillGithub/></i>
+                        <span class="links_name">Git</span>
+                    </NavLink>
+                    <span class="tooltip">Git</span>
+                </li>
+                <li>
+                    <NavLink to="/advance-javascript" exact>
                         <i class='bx'><DiJavascript/></i>
                         <span class="links_name">Advanced JavaScript</span>
                     </NavLink>
                     <span class="tooltip">Advanced JavaScript</span>
+                </li>
+                <li>
+                    <NavLink to="/reactjs" exact>
+                        <i class='bx'><RiReactjsLine/></i>
+                        <span class="links_name">React JS</span>
+                    </NavLink>
+                    <span class="tooltip">React JS</span>
+                </li>
+                <li>
+                    <NavLink to="/nodejs" exact>
+                        <i class='bx'><DiNodejs/></i>
+                        <span class="links_name">Node JS</span>
+                    </NavLink>
+                    <span class="tooltip">Node JS</span>
+                </li>
+                <li>
+                    <NavLink to="/mongodb" exact>
+                        <i class='bx'><DiMongodb/></i>
+                        <span class="links_name">MongoDB</span>
+                    </NavLink>
+                    <span class="tooltip">MongoDB</span>
+                </li>
+                <li>
+                    <NavLink to="/nextjs" exact>
+                        <i class='bx'><TbBrandNextjs/></i>
+                        <span class="links_name">Next JS</span>
+                    </NavLink>
+                    <span class="tooltip">Next JS</span>
                 </li>
             </ul>
         </div>

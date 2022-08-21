@@ -16,6 +16,7 @@ const Css = () => {
                             heading={value.heading}
                             authImg={value.authImg}
                             authName={value.authName}
+                            level={value.level}
                             authLink={value.authLink}
                         />
                     )

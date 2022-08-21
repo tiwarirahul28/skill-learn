@@ -15,9 +15,7 @@
 }
 
 .sidebar .logo-details{
-    height: 80px;
-    /* display: flex; */
-    /* align-items: center; */
+    height: 70px;
     position: relative;
 }
 
@@ -31,7 +29,7 @@
     font-size: 20px;
     font-weight: 600;
     opacity: 0;
-    margin: 10px auto;
+    /* margin: 10px auto; */
     transition: all 0.5s ease;
 }
 .sidebar.open .logo-details .icon,
@@ -123,7 +121,7 @@
     width: 100%;
 }
 
-.sidebar .bx-search{
+/* .sidebar .bx-search{
     position: absolute;
     top: 50%;
     left: 0;
@@ -141,7 +139,7 @@
 .sidebar .bx-search:hover{
     background: #FFF;
     color: #4E45AD;
-}
+} */
 
 .sidebar li a{
     display: flex;
@@ -186,7 +184,7 @@
     border-radius: 12px;
 }
 
-.sidebar li.profile{
+/* .sidebar li.profile{
     position: fixed;
     height: 60px;
     width: 78px;
@@ -206,7 +204,7 @@
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
-}
+} */
 
 .sidebar li img{
     height: 45px;
@@ -216,7 +214,7 @@
     margin-right: 10px;
 }
 
-.sidebar li.profile .name,
+/* .sidebar li.profile .name,
 .sidebar li.profile .job{
     font-size: 15px;
     font-weight: 400;
@@ -226,9 +224,9 @@
 
 .sidebar li.profile .job{
     font-size: 12px;
-}
+} */
 
-.sidebar .profile #log_out{
+/* .sidebar .profile #log_out{
     position: absolute;
     top: 50%;
     right: 0;
@@ -244,7 +242,7 @@
 .sidebar.open .profile #log_out{
     width: 50px;
     background: none;
-}
+} */
 
 
 .home-section{
@@ -268,5 +266,12 @@
     color: #11101d;
     font-size: 25px;
     font-weight: 500;
+    margin: 18px
+}
+.home-section .paragraph{
+    display: inline-block;
+    color: #11101d;
+    font-size: 16px;
+    font-weight: 400;
     margin: 18px
 }

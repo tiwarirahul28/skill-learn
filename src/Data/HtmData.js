@@ -1,8 +1,6 @@
 import ybhtml from '../assests/images/Html/logo.webp';
 import yblogo from '../assests/images/Html/yb-logo.jpg';
-import HJlogo from '../assests/images/Html/hj-logo.jpg';
-import cwhlogo from '../assests/images/Html/cwh-logo.jpg';
-import EJlogo from '../assests/images/Html/ej-logo.jpg';
+import mridul from '../assests/images/Html/mridul.jpg';
 
 
 const HtmData = [
@@ -10,29 +8,33 @@ const HtmData = [
         img: ybhtml,
         heading: 'HTML Introduction in Hindi/Urdu',
         authImg: yblogo,
+        level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT',
         authName: 'Yahoo Baba'
     },
     {
         img: ybhtml,
-        heading: 'HTML Tutorial in Hindi | Complete Course (2020)',
-        authImg: HJlogo,
-        authName: 'Harshit vashisth',
-        authLink: "https://www.youtube.com/playlist?list=PLwgFb6VsUj_mtXvKDupqdWB2JBiek8YPB"
-    },
-    {
-        img: ybhtml,
-        heading: 'HTML Tutorial For Beginners In Hindi',
-        authImg: cwhlogo,
-        authName: 'CodeWithHarry',
-        authLink: "https://www.youtube.com/playlist?list=PLu0W_9lII9agiCUZYRsvtGTXdxkzPyItg"
+        heading: 'Learn HTML and CSS',
+        authImg: ybhtml,
+        level: "Basic",
+        authName: 'CodeDamn',
+        authLink: "https://codedamn.com/learn/html-css"
     },
     {
         img: ybhtml,
         heading: 'HTML Crash Course Tutorial For Beginners',
-        authImg: EJlogo,
-        authName: 'EJ Media',
-        authLink: "https://www.youtube.com/playlist?list=PLr6-GrHUlVf_HUfo4LyFepGmj23nwqNdk"
+        authImg: ybhtml,
+        level: "Intermediate",
+        authName: 'Scrimba',
+        authLink: "https://scrimba.com/learn/htmlandcss"
+    },
+    {
+        img: ybhtml,
+        heading: 'Colts Code Camp',
+        authImg: mridul,
+        level: "Advance",
+        authName: 'Mridul Panda',
+        authLink: "https://www.youtube.com/playlist?list=PLXzwfq9BiakFm3F8Fu8kvh9mQmBvU_WCp"
     },
     // {
     //     img: ybhtml,

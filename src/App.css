@@ -20,7 +20,6 @@ html{
 .card{
   position: relative;
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 
@@ -50,6 +49,12 @@ html{
   font-weight: normal;
   letter-spacing: 1px;
   color: #000;
+}
+
+.infobox p{
+  padding-top: 10px;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .person{

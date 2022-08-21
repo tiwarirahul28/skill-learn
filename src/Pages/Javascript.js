@@ -5,7 +5,7 @@ import Cards from '../components/cards/CardBox';
 const Javascript = () => {
     return (
         <>
-        <section className="home-section">
+        <section className="home-section open">
             <div className="text">JavaScript</div>
             <div className="card">
                 {JData.map((value) => {
@@ -15,6 +15,7 @@ const Javascript = () => {
                             heading={value.heading}
                             authImg={value.authImg}
                             authName={value.authName}
+                            level={value.level}
                             authLink={value.authLink}
                         />
                     )

@@ -10,6 +10,11 @@ import Html from './Pages/Html';
 import Css from './Pages/Css';
 import JavaScript from './Pages/Javascript';
 import Git from './Pages/Git';
+import Github from './Pages/Github';
+import NodeJS from './Pages/NodeJS';
+import ReactJS from './Pages/ReactJS';
+import MongoDB from './Pages/MongoDB';
+import NextJS from './Pages/NextJS';
 
 
 function App() {
@@ -28,8 +33,23 @@ function App() {
             <Route path='/javascript' exact>
               <JavaScript/>
             </Route>
-            <Route path='/git' exact>
+            <Route path='/advance-javascript' exact>
               <Git/>
+            </Route>
+            <Route path='/github' exact>
+              <Github/>
+            </Route>
+            <Route path='/nodejs' exact>
+              <NodeJS/>
+            </Route>
+            <Route path='/reactjs' exact>
+              <ReactJS/>
+            </Route>
+            <Route path='/mongodb' exact>
+              <MongoDB/>
+            </Route>
+            <Route path='/nextjs' exact>
+              <NextJS/>
             </Route>
           </Switch>
         </main>

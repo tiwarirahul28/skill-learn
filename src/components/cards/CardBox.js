@@ -2,7 +2,7 @@ import React from 'react'
 // import { NavLink } from 'react-router-dom'
 
 
-const CardBox = ({img, heading, authImg, authLink, authName}) => {
+const CardBox = ({img, heading, authImg, authLink, authName, level}) => {
     return (
         <>
         <div className="cardbox">
@@ -15,6 +15,7 @@ const CardBox = ({img, heading, authImg, authLink, authName}) => {
                 <a href={authLink} rel="noreferrer" target="_blank">
                     <h1>{heading}</h1>
                 </a>
+                <p>{level}</p>
                 <div className="person">
                     <img src={authImg} alt="logo"/>
                     <a href={authLink} rel="noreferrer" target="_blank">{authName}</a>
