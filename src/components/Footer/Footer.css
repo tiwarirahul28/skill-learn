@@ -1,0 +1,25 @@
+.page-footer{
+    text-align: center;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+}
+
+.page-footer h5 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.page-footer p {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.page-footer .footer-logo,
+.page-footer a {
+    font-size: 14px;
+    color: #fff;
+}

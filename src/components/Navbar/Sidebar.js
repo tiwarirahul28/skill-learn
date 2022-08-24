@@ -4,7 +4,7 @@ import logo from '../../assests/images/logo.png'
 import { NavLink } from 'react-router-dom'
 import {AiOutlineMenu, AiOutlineHtml5, AiFillGithub} from 'react-icons/ai'
 import {DiCss3, DiJavascript, DiJavascript1, DiNodejs, DiMongodb} from 'react-icons/di'
-import {RiReactjsLine} from 'react-icons/ri'
+import {RiReactjsLine, RiUserFill} from 'react-icons/ri'
 import {TbBrandNextjs} from 'react-icons/tb'
 
 
@@ -82,6 +82,16 @@ const Sidebar = () => {
                         <span class="links_name">Next JS</span>
                     </NavLink>
                     <span class="tooltip">Next JS</span>
+                </li>
+                <li class="profile">
+                    <div class="profile-details">
+                    {/* <!--<img src="profile.jpg" alt="profileImg">--> */}
+                    <div class="name_job">
+                        <div class="name">Rahul Tiwari</div>
+                        <div class="job">Front-End Developer</div>
+                    </div>
+                    </div>
+                    <i class='bx bx-log-out' id="log_out" ><RiUserFill/></i>
                 </li>
             </ul>
         </div>
