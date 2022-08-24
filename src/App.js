@@ -54,7 +54,7 @@ function App() {
             </Route>
           </Switch>
         </main>
-        <Footer/>
+        {/* <Footer/> */}
         <Redirect to="/"/>
       </Router>
     </>

@@ -153,24 +153,28 @@
 
 .sidebar li.profile{
     position: fixed;
-    height: 70px;
+    height: 60px;
     width: 78px;
     left: 0;
     bottom: -8px;
     padding: 12px 14px;
-    background: #1d1b31;
+    border-top: 1px solid #FFF;
+    /* background: #1d1b31; */
     transition: all 0.5s ease;
     overflow: hidden;
+    opacity: 0;
 }
 
 .sidebar.open li.profile{
     width: 250px;
+    opacity: 1;
 }
 
 .sidebar li .profile-details{
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
+    padding-left: 14px;
 }
 
 /* .sidebar li img{
@@ -183,14 +187,17 @@
 
 .sidebar li.profile .name,
 .sidebar li.profile .job{
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 400;
     color: #fff;
+    /* text-align: center; */
     white-space: nowrap;
 }
 
 .sidebar li.profile .job{
-    font-size: 12px;
+    font-size: 10px;
+    text-align: center;
+
 }
 
 .sidebar .profile #log_out{
