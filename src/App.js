@@ -15,7 +15,7 @@ import NodeJS from './Pages/NodeJS';
 import ReactJS from './Pages/ReactJS';
 import MongoDB from './Pages/MongoDB';
 import NextJS from './Pages/NextJS';
-import Footer from './components/Footer/Footer';
+// import Footer from './components/Footer/Footer';
 
 
 function App() {
