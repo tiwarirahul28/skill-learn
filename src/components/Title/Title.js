@@ -8,7 +8,7 @@ const Title = ({Title}) => {
                    {Title}
                 </div>
                 <div className='feedback'>
-                    <a href='https://forms.gle/fRb8RKYr5e4z4L1q7' target="_blank">feedback</a>
+                    <a href='https://forms.gle/fRb8RKYr5e4z4L1q7' target="_blank" rel="noreferrer">feedback</a>
                 </div>
             </div>
         </>
