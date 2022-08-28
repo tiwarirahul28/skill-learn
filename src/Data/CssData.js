@@ -18,7 +18,7 @@ const CssData = [
     },
     {
         img: EJcss,
-        heading: 'CSS Tutorial for Beginners',
+        heading: 'CSS Tutorial For Beginners in Hindi',
         authImg: EJlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLr6-GrHUlVf8JIgLcu3sHigvQjTw_aC9C',
@@ -26,7 +26,7 @@ const CssData = [
     },
     {
         img: Techcss,
-        heading: 'CSS Tutorial in Hindi',
+        heading: 'CSS Tutorial For Beginners in Hindi',
         authImg: TGlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLjpp5kBQLNTSFXXi-bfskBXG178FGkftU',

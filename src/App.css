@@ -17,6 +17,13 @@ html{
   }
 }
 
+.feedback{
+  display: flex;
+}
+.feedback-box{
+  top: 0;
+  right: 0;
+}
 .card{
   position: relative;
   display: flex;

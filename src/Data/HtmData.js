@@ -14,7 +14,7 @@ const HtmData = [
     },
     {
         img: ybhtml,
-        heading: 'Learn HTML and CSS',
+        heading: 'Learn HTML and CSS in Hindi',
         authImg: ybhtml,
         level: "Basic",
         authName: 'CodeDamn',
@@ -30,7 +30,7 @@ const HtmData = [
     },
     {
         img: ybhtml,
-        heading: 'Colts Code Camp',
+        heading: 'Colts Code Camp in English',
         authImg: mridul,
         level: "Advance",
         authName: 'Mridul Panda',

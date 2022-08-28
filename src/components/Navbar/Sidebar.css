@@ -136,7 +136,6 @@
 .sidebar li a:hover .links_name,
 .sidebar li a:hover i{
     transition: all 0.5s ease;
-    /* color: #11101D; */
 }
 
 .sidebar li i{
@@ -154,7 +153,6 @@
     bottom: -8px;
     padding: 12px 14px;
     border-top: 1px solid #FFF;
-    /* background: #1d1b31; */
     transition: all 0.5s ease;
     overflow: hidden;
     opacity: 0;
@@ -172,20 +170,11 @@
     padding-left: 14px;
 }
 
-/* .sidebar li img{
-    height: 40px;
-    width: 40px;
-    object-fit: cover;
-    border-radius: 6px;
-    margin-right: 10px;
-} */
-
 .sidebar li.profile .name,
 .sidebar li.profile .job{
     font-size: 10px;
     font-weight: 400;
     color: #fff;
-    /* text-align: center; */
     white-space: nowrap;
 }
 
@@ -212,6 +201,7 @@
     width: 50px;
     background: none;
 }
+
 
 
 .home-section{

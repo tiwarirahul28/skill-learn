@@ -28,7 +28,7 @@ const JData =[
     },
     {
         img: JLogo,
-        heading: 'Learn JavaScript Basics',
+        heading: 'Learn JavaScript Basics for beginners',
         authImg: javascriptlogo,
         level: "Basic",
         authLink: 'https://codedamn.com/learn/javascript-basics',
@@ -36,7 +36,7 @@ const JData =[
     },
     {
         img: hitesh,
-        heading: 'Javascript course',
+        heading: 'Javascript course for Intermediate',
         authImg: hiteshlogo,
         level: "Intermediate",
         authLink: 'https://www.youtube.com/playlist?list=PLRAV69dS1uWSxUIk5o3vQY2-_VKsOpXLD',

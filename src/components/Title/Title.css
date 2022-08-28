@@ -1,0 +1,32 @@
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.title-box{
+    display: inline-block;
+    color: #11101d;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase
+}
+.feedback{
+    border-radius: 5px;
+    background: #4E45AD;
+    border: 1px solid #4E45AD;
+}
+.feedback a{
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 14px;
+}
+.feedback:hover{
+    transition: 0.5s;
+    background-color: #11101d;
+}
+@media screen and (max-width: 998px) {
+    .title-box{
+        font-size: 20px;
+    }
+}

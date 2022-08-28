@@ -1,12 +1,15 @@
 import React from 'react'
 import Cards from '../components/cards/CardBox';
+import Title from '../components/Title/Title';
 import MongoDDBData from '../Data/MongoDBData';
 
 const MongoDB = () => {
     return (
         <>
         <section className="home-section open">
-            <div className="text">MongoDB</div>
+            <Title
+                Title="MongoDB"
+            />
             <div className="card">
             {MongoDDBData.map((value) => {
                     return(

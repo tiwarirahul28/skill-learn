@@ -15,7 +15,6 @@ import NodeJS from './Pages/NodeJS';
 import ReactJS from './Pages/ReactJS';
 import MongoDB from './Pages/MongoDB';
 import NextJS from './Pages/NextJS';
-// import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -54,7 +53,6 @@ function App() {
             </Route>
           </Switch>
         </main>
-        {/* <Footer/> */}
         <Redirect to="/"/>
       </Router>
     </>

@@ -1,12 +1,15 @@
 import React from 'react'
 import Cards from '../components/cards/CardBox';
+import Title from '../components/Title/Title';
 import GitData from '../Data/GitData';
 
 const Github = () => {
     return (
         <>
         <section className="home-section open">
-            <div className="text">GitHub</div>
+            <Title
+                Title="GitHub"
+            />
             <div className="card">
             {GitData.map((value) => {
                 return(

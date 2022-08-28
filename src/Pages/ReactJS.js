@@ -1,14 +1,17 @@
 import React from 'react'
 import Cards from '../components/cards/CardBox';
+import Title from '../components/Title/Title';
 import ReactData from '../Data/ReactData';
 
 const ReactJS = () => {
     return (
         <>
         <section className="home-section open">
-            <div className="text">React JS</div>
+            <Title
+                Title="React JS"
+            />            
             <div className="card">
-            {ReactData.map((value) => {
+                {ReactData.map((value) => {
                     return(
                         <Cards
                             img={value.img}
