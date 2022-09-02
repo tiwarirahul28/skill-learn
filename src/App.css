@@ -78,8 +78,12 @@ html{
 .person img{
   width: 45px;
 }
-/* responsive */
-
+main{
+  margin-left: 0;
+}
+main.open{
+  margin-left: 170px;
+}
 @media screen and (max-width: 991px){
   .card{
     padding: 10px;
@@ -101,6 +105,12 @@ html{
   .infobox h1{
     font-size: 18px;
     color: #000;
+  }
+  
+}
+@media screen and (max-width: 600px){
+  main.open{
+    margin-left: 0px;
   }
 }
   

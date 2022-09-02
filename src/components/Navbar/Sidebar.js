@@ -8,20 +8,21 @@ import {RiReactjsLine} from 'react-icons/ri'
 import {TbBrandNextjs} from 'react-icons/tb'
 
 
-const Sidebar = () => {
-    const [Show, setstate] = useState(false);
+const Sidebar = ({Show, setstate}) => {
     return (
         <>
         <div className={Show ? "sidebar open" : "sidebar"}>
             <div className='logo-details'>
                 <div className="logo_name">
-                    <img src={logo} alt=""/>
+                    <a href='/'>
+                        <img src={logo} alt="logo"/>
+                    </a>
                 </div>
                 <i className='bx bx-menu' onClick={() => setstate(!Show)} id="btn" ><AiOutlineMenu/></i>
             </div>
             <ul className="nav-list">
                 <li>
-                    <NavLink to="/" exact>
+                    <NavLink to="/html" exact>
                         <i class='bx'><AiOutlineHtml5/></i>
                         <span class="links_name">HTML</span>
                     </NavLink>

@@ -15,16 +15,23 @@ import NodeJS from './Pages/NodeJS';
 import ReactJS from './Pages/ReactJS';
 import MongoDB from './Pages/MongoDB';
 import NextJS from './Pages/NextJS';
+import Intro from './components/Intro/Intro';
+import { useState } from 'react';
 
 
 function App() {
+  const [Show, setstate] = useState(false);
+
   return (
     <>
       <Router>
-        <Sidebar/>
-        <main>
+        <Sidebar Show={Show} setstate={setstate} />
+        <main className={Show ? "open" : ""}  >
           <Switch>
-            <Route path='/' exact>
+          <Route path='/' exact>
+            <Intro/>
+          </Route>
+            <Route path='/html' exact>
               <Html/>
             </Route>
             <Route path='/css' exact>
