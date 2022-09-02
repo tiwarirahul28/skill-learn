@@ -1,4 +1,4 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import './Sidebar.css'
 import logo from '../../assests/images/logo.png'
 import { NavLink } from 'react-router-dom'
