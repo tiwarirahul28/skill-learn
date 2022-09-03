@@ -22,7 +22,7 @@ const Sidebar = ({Show, setstate}) => {
             </div>
             <ul className="nav-list">
                 <li>
-                    <NavLink to="/html" exact>
+                    <NavLink to="/" exact>
                         <i class='bx'><AiOutlineHtml5/></i>
                         <span class="links_name">HTML</span>
                     </NavLink>

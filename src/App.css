@@ -80,6 +80,7 @@ html{
 }
 main{
   margin-left: 0;
+  transition: 0.5s;
 }
 main.open{
   margin-left: 170px;
