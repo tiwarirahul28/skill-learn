@@ -23,7 +23,7 @@ const GitData = [
     },
     {
         img: github,
-        heading: 'Learn Github in 20 Minutes',
+        heading: 'Learn Git in 20 Minutes',
         authImg: coltsteele,
         level: "Advance",
         authLink: 'https://www.youtube.com/watch?v=nhNq2kIvi9s',

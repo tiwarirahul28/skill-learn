@@ -23,7 +23,7 @@ const ReactData = [
     },
     {
         img: reactimg,
-        heading: 'Learn React 18 for free',
+        heading: 'Learn React 18 for Beginners',
         authImg: reactimg,
         level: "Advance",
         authLink: 'https://codedamn.com/learn/reactjs',

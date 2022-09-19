@@ -15,7 +15,7 @@ const CardBox = ({img, heading, authImg, authLink, authName, level}) => {
                 <a href={authLink} rel="noreferrer" target="_blank">
                     <h1>{heading}</h1>
                 </a>
-                <p>{level}</p>
+                <p>Course Type: {level}</p>
                 <div className="person">
                     <img src={authImg} alt="logo"/>
                     <a href={authLink} rel="noreferrer" target="_blank">{authName}</a>

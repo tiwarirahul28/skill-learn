@@ -11,7 +11,7 @@ import codestepbysteplogo from '../assests/images/nodejsimages/codestepbysteplog
 const NodeData = [
     {
         img: Thapanodejs,
-        heading: 'NodeJS Tutorial in Hindi 2020',
+        heading: 'NodeJS Tutorial in Hindi',
         authImg: TTlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLwGdqUZWnOp00IbeN0OtL9dmnasipZ9x8',
@@ -19,7 +19,7 @@ const NodeData = [
     },
     {
         img: Nodejsninja,
-        heading: 'NodeJS Tutorial in Hindi 2020',
+        heading: 'NodeJS Tutorial in Hindi',
         authImg: TNNlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp',
@@ -27,7 +27,7 @@ const NodeData = [
     },
     {
         img: Nodejscode,
-        heading: 'NodeJS Tutorial in Hindi 2020',
+        heading: 'NodeJS Tutorial in Hindi',
         authImg: codeevolutionlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLC3y8-rFHvwhco_O8PS1iS9xRrdVTvSIz',

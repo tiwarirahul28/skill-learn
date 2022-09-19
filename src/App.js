@@ -15,8 +15,8 @@ import NodeJS from './Pages/NodeJS';
 import ReactJS from './Pages/ReactJS';
 import MongoDB from './Pages/MongoDB';
 import NextJS from './Pages/NextJS';
-// import Intro from './components/Intro/Intro';
 import { useState } from 'react';
+// import Intro from './components/Intro/Intro';
 
 
 function App() {
