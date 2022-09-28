@@ -8,7 +8,7 @@ import Codevolutionmongodb from '../assests/images/mongodbimages/codevolutionmon
 const MongoDDBData = [
     {
         img: thapamongodb,
-        heading: 'NodeJS Tutorial in Hindi 2020',
+        heading: 'MongoDB Tutorial in Hindi 2020',
         authImg: TTlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLwGdqUZWnOp1P9xSsJg7g3AY0CUjs-WOa',
@@ -16,7 +16,7 @@ const MongoDDBData = [
     },
     {
         img: Ninjamongodb,
-        heading: 'NodeJS Tutorial in Hindi 2020',
+        heading: 'MongoDB Tutorial in Hindi 2020',
         authImg: TNNlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9h77dJ-QJlwGlZlTd4ecZOA',
@@ -24,7 +24,7 @@ const MongoDDBData = [
     },
     {
         img: Codevolutionmongodb,
-        heading: 'NodeJS Tutorial in Hindi 2020',
+        heading: 'MongoDB Tutorial in Hindi 2020',
         authImg: codeevolutionlogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PLC3y8-rFHvwh11bWtwm3_qKvo46uDmaal',
