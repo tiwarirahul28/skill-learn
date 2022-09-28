@@ -12,7 +12,7 @@ const ReactData = [
         heading: 'Full Modern React Tutorial',
         authImg: TTlogo,
         level: "Basic",
-        authLink: 'https://www.youtube.com/playlist?list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d',
+        authLink: 'https://www.youtube.com/playlist?list=PLwGdqUZWnOp3aROg4wypcRhZqJG3ajZWJ',
         authName: 'Thapa Technical'
     },
     {
