@@ -3,7 +3,7 @@ import './Sidebar.css'
 import logo from '../../assests/images/logo.png'
 import { NavLink } from 'react-router-dom'
 import {AiOutlineMenu, AiOutlineHtml5, AiFillGithub} from 'react-icons/ai'
-import {DiCss3, DiJavascript, DiJavascript1, DiNodejs, DiMongodb} from 'react-icons/di'
+import {DiCss3, DiJavascript, DiJavascript1, DiNodejs, DiMongodb, DiWordpress} from 'react-icons/di'
 import {RiReactjsLine} from 'react-icons/ri'
 import {TbBrandNextjs} from 'react-icons/tb'
 
@@ -41,6 +41,13 @@ const Sidebar = ({Show, setstate}) => {
                         <span class="links_name">JavaScript</span>
                     </NavLink>
                     <span class="tooltip">JavaScript</span>
+                </li>
+                <li>
+                    <NavLink to="/wordpress" exact>
+                        <i class='bx'><DiWordpress/></i>
+                        <span class="links_name">WordPress</span>
+                    </NavLink>
+                    <span class="tooltip">WordPress</span>
                 </li>
                 <li>
                     <NavLink to="/github">

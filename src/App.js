@@ -16,6 +16,7 @@ import ReactJS from './Pages/ReactJS';
 import MongoDB from './Pages/MongoDB';
 import NextJS from './Pages/NextJS';
 import { useState } from 'react';
+import WP from './Pages/WP';
 // import Intro from './components/Intro/Intro';
 
 
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route path='/javascript' exact>
               <JavaScript/>
+            </Route>
+            <Route path="/wordpress" exact>
+              <WP/>
             </Route>
             <Route path='/advance-javascript' exact>
               <Git/>
