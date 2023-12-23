@@ -4,6 +4,8 @@ import logo from '../../assests/images/logo.png'
 import { NavLink } from 'react-router-dom'
 import {AiOutlineMenu, AiOutlineHtml5, AiFillGithub} from 'react-icons/ai'
 import {DiCss3, DiJavascript, DiJavascript1, DiNodejs, DiMongodb, DiWordpress} from 'react-icons/di'
+import { FaPhp } from "react-icons/fa6";
+
 import {RiReactjsLine} from 'react-icons/ri'
 import {TbBrandNextjs} from 'react-icons/tb'
 
@@ -22,7 +24,7 @@ const Sidebar = ({Show, setstate}) => {
             </div>
             <ul className="nav-list">
                 <li>
-                    <NavLink to="/" exact>
+                    <NavLink to="/html" exact>
                         <i class='bx'><AiOutlineHtml5/></i>
                         <span class="links_name">HTML</span>
                     </NavLink>
@@ -36,11 +38,25 @@ const Sidebar = ({Show, setstate}) => {
                     <span class="tooltip">CSS</span>
                 </li>
                 <li>
+                    <NavLink to="/github">
+                        <i class='bx'><AiFillGithub/></i>
+                        <span class="links_name">Git</span>
+                    </NavLink>
+                    <span class="tooltip">Git</span>
+                </li>
+                <li>
                     <NavLink to="/javascript" exact>
                         <i class='bx'><DiJavascript1/></i>
                         <span class="links_name">JavaScript</span>
                     </NavLink>
                     <span class="tooltip">JavaScript</span>
+                </li>
+                <li>
+                    <NavLink to="/php" exact>
+                        <i class='bx'><FaPhp/></i>
+                        <span class="links_name">PHP</span>
+                    </NavLink>
+                    <span class="tooltip">PHP</span>
                 </li>
                 <li>
                     <NavLink to="/wordpress" exact>
@@ -49,13 +65,7 @@ const Sidebar = ({Show, setstate}) => {
                     </NavLink>
                     <span class="tooltip">WordPress</span>
                 </li>
-                <li>
-                    <NavLink to="/github">
-                        <i class='bx'><AiFillGithub/></i>
-                        <span class="links_name">Git</span>
-                    </NavLink>
-                    <span class="tooltip">Git</span>
-                </li>
+                
                 <li>
                     <NavLink to="/advance-javascript" exact>
                         <i class='bx'><DiJavascript/></i>
@@ -64,19 +74,20 @@ const Sidebar = ({Show, setstate}) => {
                     <span class="tooltip">Advanced JavaScript</span>
                 </li>
                 <li>
+                    <NavLink to="/nodejs" exact>
+                        <i class='bx'><DiNodejs/></i>
+                        <span class="links_name">Node JS</span>
+                    </NavLink>
+                    <span class="tooltip">Node JS</span>
+                </li>   
+                <li>
                     <NavLink to="/reactjs" exact>
                         <i class='bx'><RiReactjsLine/></i>
                         <span class="links_name">React JS</span>
                     </NavLink>
                     <span class="tooltip">React JS</span>
                 </li>
-                <li>
-                    <NavLink to="/nodejs" exact>
-                        <i class='bx'><DiNodejs/></i>
-                        <span class="links_name">Node JS</span>
-                    </NavLink>
-                    <span class="tooltip">Node JS</span>
-                </li>
+                
                 <li>
                     <NavLink to="/mongodb" exact>
                         <i class='bx'><DiMongodb/></i>
@@ -96,7 +107,7 @@ const Sidebar = ({Show, setstate}) => {
                     <div class="name_job">
                     {/* <hr/> */}
                         <div class="name">Made With ❤️</div>
-                        <div class="job">&copy;2022 Rahul Tiwari</div>
+                        <div class="job">&copy;{new Date().getFullYear()} Rahul Tiwari</div>
                     </div>
                     </div>
                     {/* <i class='bx bx-log-out' id="log_out" ><RiUserFill/></i> */}
