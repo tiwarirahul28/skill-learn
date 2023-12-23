@@ -25,7 +25,7 @@
     width: 90vw;
     /* margin: 5rem auto; */
     margin: auto;
-    background: white;
+    background: transparent;
     border-radius: 5px;
     padding: 2rem 2rem;
     max-width: 100%;
@@ -45,6 +45,7 @@
     margin-bottom: 1rem;
     border-radius: 5px;
     /* box-shadow: var(--light-shadow); */
+    transition: 0.5s ease-in-out;
 }
 
 .question h4 {
@@ -73,7 +74,7 @@
     border-color: transparent;
     width: 2rem;
     height: 2rem;
-    background: #ffffff;
+    /* background: #ffffff; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,6 +84,7 @@
     margin-left: 1rem;
     align-self: center;
     min-width: 2rem;
+    font-size: 1.5em;
 }
 .introheading{
     font-size: 36px;
