@@ -1,0 +1,51 @@
+.notfound--section{
+    position: relative;
+    background: #E4E9F7;
+    min-height: 100vh;
+    left: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.notfound--section h1{
+    font-size: 306px;
+    line-height: 320px;
+    font-weight: 400;
+    color: #5C6A79;
+}
+.notfound--section p{
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #5C6A79;
+    padding-bottom: 2em;
+}
+.notfound--section a{
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #fff;
+    background-color: #4E45AD;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+@media screen and (max-width: 768px) {
+    .notfound--section h1{
+        font-size: 106px;
+        line-height: 120px;
+    }
+    .notfound--section p{
+        font-size: 16px;
+        line-height: 20px;
+        padding-bottom: 2em;
+    }
+    .notfound--section a{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        padding: 15px 30px;
+    }
+}
