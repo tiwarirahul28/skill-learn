@@ -1,0 +1,56 @@
+{
+    "BannerData": [
+        {
+            "id": "1",
+            "title": "Explore, Educate, Rise through Our Learning Adventure.",
+            "description": "Empower minds, shape futures – where education intersects innovation, accessible at your fingertips.",
+            "btnText": "Explore Courses"
+        }
+    ],
+    "explore": [
+        {
+            "id": "1",
+            "subheading": "Explore Programs",
+            "heading": "Our Most Popular Class",
+            "description": "Let's join our famous class, the knowledge provided will definitely be useful for you."
+        }
+    ],
+    "data": [
+        {
+            "img": "./img/bannerImg/LearnC.png",
+            "heading": "Advance JavaScript Tutorial in Hindi / Urdu",
+            "authImg": "./img/bannerImg/LearnC.png",
+            "authLink": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
+            "authName": "Yahoo Baba",
+            "category": "Javascript",
+            "skillLevel": "Basics"
+        },
+        {
+            "img": "./img/bannerImg/LearnC.png",
+            "heading": "Advanced JavaScript Tutorial in Hindi 2020",
+            "authImg": "./img/bannerImg/LearnC.png",
+            "authLink": "https://www.youtube.com/playlist?list=PLwGdqUZWnOp0hSGwasCjbrWSPrEKqB_kz",
+            "authName": "Thapa Technical",
+            "category": "Html",
+            "skillLevel": "Intermediate"
+        },
+        {
+            "img": "./img/bannerImg/LearnC.png",
+            "heading": "Advance JavaScript (Hindi)",
+            "authImg": "./img/bannerImg/LearnC.png",
+            "authLink": "https://www.youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI",
+            "authName": "Geeky Show",
+            "category": "Git",
+            "skillLevel": "Advance"
+        },
+        {
+            "img": "./img/bannerImg/LearnC.png",
+            "heading": "Advance JavaScript Tutorial in Hindi / Urdu",
+            "authImg": "./img/bannerImg/LearnC.png",
+            "authLink": "https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG",
+            "authName": "Yahoo Baba",
+            "category": "Javascript",
+            "skillLevel": "Basics"
+        }
+    ]
+}
