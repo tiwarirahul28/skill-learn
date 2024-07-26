@@ -1,13 +1,6 @@
 import "./App.css";
 import Sidebar from "./components/Navbar/Sidebar";
-// import {
-//   BrowserRouter as Router,
-//   Route,
-//   Redirect,
-//   Switch
-// } from 'react-router-dom';
 import { Routes, Route } from "react-router-dom";
-
 import Html from "./Pages/Html";
 import Css from "./Pages/Css";
 import JavaScript from "./Pages/Javascript";
@@ -20,7 +13,6 @@ import NextJS from "./Pages/NextJS";
 import { useState } from "react";
 import WP from "./Pages/WP";
 import FrontPage from "./Pages/FrontPage";
-// import Intro from "./components/Intro";
 import NotFiund from "./components/NotFound";
 
 function App() {
