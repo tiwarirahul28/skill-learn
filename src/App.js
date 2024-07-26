@@ -14,14 +14,15 @@ import { useState } from "react";
 import WP from "./Pages/WP";
 import FrontPage from "./Pages/FrontPage";
 import NotFiund from "./components/NotFound";
+import Php from "./Pages/Php";
 
 function App() {
   const [Show, setstate] = useState(false);
   const routes = [
-    // {
-    //   path: "/",
-    //   element: <Intro />,
-    // },
+    {
+      path: "/",
+      element: <FrontPage />,
+    },
     {
       path: "/html",
       element: <Html />,
@@ -41,6 +42,10 @@ function App() {
     {
       path: "/javascript",
       element: <JavaScript />,
+    },
+    {
+      path: "/php",
+      element: <Php />,
     },
     {
       path: "/advance-javascript",
@@ -67,12 +72,8 @@ function App() {
       element: <NextJS />,
     },
     {
-      path: "/",
-      element: <FrontPage />,
-    },
-    {
       path: "*",
-      element: <NotFiund/>,
+      element: <NotFiund />,
     },
   ];
   return (

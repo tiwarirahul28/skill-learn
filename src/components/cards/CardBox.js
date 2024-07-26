@@ -13,7 +13,22 @@ const CardBox = ({
 }) => {
   return (
     <>
-      <div className="cardbox">
+      <div className="cardBox">
+        <div className="cardImg">
+          <img src={img} alt="cardImg" />
+        </div>
+        <div className="cardContent">
+          <h2>{heading}</h2>
+          <p>Course Type: <span>{level}</span></p>
+          <div className="cardAuth">
+            <p>Course By: {authName}</p>
+            <a href={authLink} rel="noreferrer" target="_blank">
+              Vist
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* <div className="cardbox">
         <div className="imgbox">
           <a href={authLink} rel="noreferrer" target="_blank">
             <img src={img} alt="logo" />
@@ -34,7 +49,7 @@ const CardBox = ({
             </a>
           </div>
         </div>
-      </div>
+      </div>*/}
     </>
   );
 };

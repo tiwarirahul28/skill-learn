@@ -1,25 +1,21 @@
-import JLogo from '../assests/images/Javascript/javascript.svg'
 import yblogo from '../assests/images/Html/yb-logo.jpg';
 import TTlogo from '../assests/images/Html/tt-logo.jpg';
 import javascriptlogo from '../assests/images/Javascript/javascript-logo.png';
-import hitesh from '../assests/images/Javascript/hitesh.jpg';
-import ThapaJS from '../assests/images/Javascript/thapajs.jpg'
 import hiteshlogo from '../assests/images/Javascript/hiteshlogo.jpg'
-import codeevolution from '../assests/images/Javascript/codeevolution.jpg';
 import codeevolutionlogo from '../assests/images/Javascript/codeevolution-logo.jpg';
-
+import javascriptTemplate from '../assests/images/Skill-learn-javascript.webp';
 
 const JData =[
     {
-        img: JLogo,
-        heading: '🏆 JavaScript Tutorial for beginners in Hindi / Urdu',
+        img: javascriptTemplate,
+        heading: 'JavaScript Tutorial for beginners in Hindi / Urdu',
         authImg: yblogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbxStBQ21C2toa5uQMqHEoRT',
         authName: 'Yahoo Baba'
     },
     {
-        img: ThapaJS,
+        img: javascriptTemplate,
         heading: 'JavaScript Tutorials for beginners in Hindi 2019',
         authImg: TTlogo,
         level: "Basic",
@@ -27,7 +23,7 @@ const JData =[
         authName: 'Thapa Technical'
     },
     {
-        img: JLogo,
+        img: javascriptTemplate,
         heading: 'Learn JavaScript Basics for beginners',
         authImg: javascriptlogo,
         level: "Basic",
@@ -35,7 +31,7 @@ const JData =[
         authName: 'codedamn'
     },
     {
-        img: hitesh,
+        img: javascriptTemplate,
         heading: 'Javascript course for Intermediate',
         authImg: hiteshlogo,
         level: "Intermediate",
@@ -43,7 +39,7 @@ const JData =[
         authName: 'Hitesh Choudhary'
     },
     {
-        img: codeevolution,
+        img: javascriptTemplate,
         heading: 'JavaScript Tutorials for beginners in Hindi 2019',
         authImg: codeevolutionlogo,
         level: "Advance",

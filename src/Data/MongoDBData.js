@@ -1,13 +1,11 @@
 import codeevolutionlogo from '../assests/images/Javascript/codeevolution-logo.jpg';
 import TTlogo from '../assests/images/Html/tt-logo.jpg';
 import TNNlogo from '../assests/images/Css/tnn-logo.jpg';
-import thapamongodb from '../assests/images/mongodbimages/thapamongodb.jpg'
-import Ninjamongodb from '../assests/images/mongodbimages/ninjamongodb.jpg'
-import Codevolutionmongodb from '../assests/images/mongodbimages/codevolutionmongodb.jpg'
+import MongoDBTemplate from '../assests/images/Skill-learn-MongoDB.webp';
 
 const MongoDDBData = [
     {
-        img: thapamongodb,
+        img: MongoDBTemplate,
         heading: 'MongoDB Tutorial in Hindi 2020',
         authImg: TTlogo,
         level: "Basic",
@@ -15,7 +13,7 @@ const MongoDDBData = [
         authName: 'Thapa Technical'
     },
     {
-        img: Ninjamongodb,
+        img: MongoDBTemplate,
         heading: 'MongoDB Tutorial in Hindi 2020',
         authImg: TNNlogo,
         level: "Basic",
@@ -23,7 +21,7 @@ const MongoDDBData = [
         authName: 'The Net Ninja'
     },
     {
-        img: Codevolutionmongodb,
+        img: MongoDBTemplate,
         heading: 'MongoDB Tutorial in Hindi 2020',
         authImg: codeevolutionlogo,
         level: "Basic",

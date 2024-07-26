@@ -1,10 +1,10 @@
 import CodeWithHarry from '../assests/images/wordpress/cwh.jpg';
 import freecodecamplogo from '../assests/images/wordpress/freecodecamplogo.jpg';
-import wordpressTemplate from '../assests/images/Skill-learn-wordpress.webp';
+import phpTemplate from '../assests/images/Skill-learn-php.webp';
 
-const WPData =[
+const PhpData =[
     {
-        img: wordpressTemplate,
+        img: phpTemplate,
         heading: 'Wordpress Tutorial for Beginners',
         authImg: CodeWithHarry,
         level: "Basic",
@@ -12,7 +12,7 @@ const WPData =[
         authName: 'CodeWithHarry'
     },
     {
-        img: wordpressTemplate,
+        img: phpTemplate,
         heading: 'WordPress (Beginners Tutorial)',
         authImg: freecodecamplogo,
         level: "Basic",
@@ -20,4 +20,4 @@ const WPData =[
         authName: 'freeCodeCamp'
     }
 ]
-export default WPData;
+export default PhpData;

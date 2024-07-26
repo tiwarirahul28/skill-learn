@@ -1,14 +1,12 @@
-import reactnetninja from '../assests/images/reactimage/reactnetninja.jpg'
 import TNNlogo from '../assests/images/Css/tnn-logo.jpg';
-import reactcodevolution from '../assests/images/reactimage/reactcodevolution.jpg'
 import codeevolutionlogo from '../assests/images/Javascript/codeevolution-logo.jpg';
 import reactimg from '../assests/images/reactimage/reactimg.webp'
-import reactthapaimg from '../assests/images/reactimage/reactthapaimg.jpg'
 import TTlogo from '../assests/images/Html/tt-logo.jpg';
+import ReactTemplate from '../assests/images/Skill-learn-React.webp';
 
 const ReactData = [
     {
-        img: reactthapaimg,
+        img: ReactTemplate,
         heading: 'Full Modern React Tutorial',
         authImg: TTlogo,
         level: "Basic",
@@ -16,7 +14,7 @@ const ReactData = [
         authName: 'Thapa Technical'
     },
     {
-        img: reactnetninja,
+        img: ReactTemplate,
         heading: 'Full Modern React Tutorial',
         authImg: TNNlogo,
         level: "Basic",
@@ -24,7 +22,7 @@ const ReactData = [
         authName: 'The Net Ninja'
     },
     {
-        img: reactcodevolution,
+        img: ReactTemplate,
         heading: 'ReactJS Tutorial for Beginners',
         authImg: codeevolutionlogo,
         level: "Intermediate",
@@ -32,7 +30,7 @@ const ReactData = [
         authName: 'Codevolution'
     },
     {
-        img: reactimg,
+        img: ReactTemplate,
         heading: 'Learn React 18 for Beginners',
         authImg: reactimg,
         level: "Advance",

@@ -1,11 +1,11 @@
-import ybhtml from '../assests/images/Html/logo.webp';
+import Template from '../assests/images/Skill-learn-html.webp'
 import yblogo from '../assests/images/Html/yb-logo.jpg';
 import mridul from '../assests/images/Html/mridul.jpg';
 
 
 const HtmData = [
     {
-        img: ybhtml,
+        img: Template,
         heading: 'HTML Introduction in Hindi/Urdu',
         authImg: yblogo,
         level: "Basic",
@@ -13,23 +13,23 @@ const HtmData = [
         authName: 'Yahoo Baba'
     },
     {
-        img: ybhtml,
+        img: Template,
         heading: 'Learn HTML and CSS in Hindi',
-        authImg: ybhtml,
+        // authImg: ybhtml,
         level: "Basic",
         authName: 'CodeDamn',
         authLink: "https://codedamn.com/learn/html-css"
     },
     {
-        img: ybhtml,
+        img: Template,
         heading: 'HTML Crash Course Tutorial For Beginners',
-        authImg: ybhtml,
+        // authImg: ybhtml,
         level: "Intermediate",
         authName: 'Scrimba',
         authLink: "https://scrimba.com/learn/htmlandcss"
     },
     {
-        img: ybhtml,
+        img: Template,
         heading: 'Colts Code Camp in English',
         authImg: mridul,
         level: "Advance",

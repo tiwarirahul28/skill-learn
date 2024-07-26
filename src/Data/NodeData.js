@@ -1,16 +1,12 @@
 import TTlogo from '../assests/images/Html/tt-logo.jpg';
-import Thapanodejs from '../assests/images/nodejsimages/thapanodejs.jpg';
-import Nodejsninja from '../assests/images/nodejsimages/nodejsninja.jpg';
-import Nodejscode from '../assests/images/nodejsimages/nodejscode.jpg';
-import Csbsnode from '../assests/images/nodejsimages/csbsnode.jpg';
 import TNNlogo from '../assests/images/Css/tnn-logo.jpg';
 import codeevolutionlogo from '../assests/images/Javascript/codeevolution-logo.jpg';
 import codestepbysteplogo from '../assests/images/nodejsimages/codestepbysteplogo.jpg';
-
+import NodeJSTemplate from '../assests/images/Skill-learn-NodeJS.webp';
 
 const NodeData = [
     {
-        img: Thapanodejs,
+        img: NodeJSTemplate,
         heading: 'NodeJS Tutorial in Hindi',
         authImg: TTlogo,
         level: "Basic",
@@ -18,7 +14,7 @@ const NodeData = [
         authName: 'Thapa Technical'
     },
     {
-        img: Nodejsninja,
+        img: NodeJSTemplate,
         heading: 'NodeJS Tutorial in Hindi',
         authImg: TNNlogo,
         level: "Basic",
@@ -26,7 +22,7 @@ const NodeData = [
         authName: 'The Net Ninja'
     },
     {
-        img: Nodejscode,
+        img: NodeJSTemplate,
         heading: 'NodeJS Tutorial in Hindi',
         authImg: codeevolutionlogo,
         level: "Basic",
@@ -34,7 +30,7 @@ const NodeData = [
         authName: 'Codevolution'
     },
     {
-        img: Csbsnode,
+        img: NodeJSTemplate,
         heading: 'Node js in Hindi',
         authImg: codestepbysteplogo,
         level: "Basic",

@@ -1,13 +1,10 @@
 import TNNlogo from '../assests/images/Css/tnn-logo.jpg';
-import nextjsninja from '../assests/images/nextjsimage/nextjsninja.jpg';
-import nextjsnetninja from '../assests/images/nextjsimage/nextjsnetninja.jpg';
-import nextjsimg from '../assests/images/nextjsimage/nextjsimg.png';
 import codeevolutionlogo from '../assests/images/Javascript/codeevolution-logo.jpg';
-
+import nextjsTemplate from '../assests/images/Skill-learn-nextjs.webp';
 
 const NextData = [
     {
-        img: nextjsninja,
+        img: nextjsTemplate,
         heading: 'Next.js Tutorial for Beginners',
         authImg: TNNlogo,
         level: "Basic",
@@ -15,7 +12,7 @@ const NextData = [
         authName: 'The Net Ninja'
     },
     {
-        img: nextjsnetninja,
+        img: nextjsTemplate,
         heading: 'Next.js & Contentful Tutorial',
         authImg: TNNlogo,
         level: "Intermediate",
@@ -23,7 +20,7 @@ const NextData = [
         authName: 'The Net Ninja'
     },
     {
-        img: nextjsimg,
+        img: nextjsTemplate,
         heading: 'Advanced Next.js Concepts',
         authImg: codeevolutionlogo,
         level: "Advanced",

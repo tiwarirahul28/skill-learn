@@ -5,8 +5,8 @@ import HomeData from "../../Data/HomeData.json";
 const Featured = ({ Subheading, Heading, Description }) => {
   return (
     <>
-      <div id="Featured" className="Featured--section">
-        <div className="content">
+      <div className="Featured--section">
+        <div className="content" id="Featured">
           <span>{Subheading}</span>
           <h2>{Heading}</h2>
           <p>{Description}</p>
@@ -15,13 +15,14 @@ const Featured = ({ Subheading, Heading, Description }) => {
           {HomeData?.data?.map((item, index) => {
             return (
               <Cards
+                style={{ padding: "30px 0" }}
                 key={index}
                 img={item.img}
                 category={item.category}
                 heading={item.heading}
                 authImg={item.authImg}
                 authName={item.authName}
-                skillLevel={item.skillLevel}
+                level={item.skillLevel}
                 authLink={item.authLink}
               />
             );
