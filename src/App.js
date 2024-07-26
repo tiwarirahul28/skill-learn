@@ -20,15 +20,16 @@ import NextJS from "./Pages/NextJS";
 import { useState } from "react";
 import WP from "./Pages/WP";
 import FrontPage from "./Pages/FrontPage";
-import Intro from "./components/Intro";
+// import Intro from "./components/Intro";
+import NotFiund from "./components/NotFound";
 
 function App() {
   const [Show, setstate] = useState(false);
   const routes = [
-    {
-      path: "/",
-      element: <Intro />,
-    },
+    // {
+    //   path: "/",
+    //   element: <Intro />,
+    // },
     {
       path: "/html",
       element: <Html />,
@@ -74,8 +75,12 @@ function App() {
       element: <NextJS />,
     },
     {
-      path: "/frontpage",
+      path: "/",
       element: <FrontPage />,
+    },
+    {
+      path: "*",
+      element: <NotFiund/>,
     },
   ];
   return (

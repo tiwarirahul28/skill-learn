@@ -21,13 +21,16 @@
     font-size: 16px;
     text-align: justify;
 } */
+.home-section--faqs{
+    padding: 50px 20px;
+}
 .container {
-    width: 90vw;
+    width: 100vw;
     /* margin: 5rem auto; */
     margin: auto;
     background: transparent;
     border-radius: 5px;
-    padding: 2rem 2rem;
+    /* padding: 2rem 2rem; */
     max-width: 100%;
     /* display: grid; */
     gap: 1rem 2rem;
@@ -88,7 +91,7 @@
 }
 .introheading{
     font-size: 36px;
-    text-align: center;
+    /* text-align: center; */
     padding: 20px 0;
 }
 

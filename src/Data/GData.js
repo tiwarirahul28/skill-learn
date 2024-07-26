@@ -11,21 +11,27 @@ const GData = [
         heading: 'Advance JavaScript Tutorial in Hindi / Urdu',
         authImg: yblogo,
         authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbzvz4j1N4J8zCY8mu3l29MG',
-        authName: 'Yahoo Baba'
+        authName: 'Yahoo Baba',
+        category: "Javascript",
+        skillLevel: "Basics"
     },
     {
         img: TTlogo,
         heading: 'Advanced JavaScript Tutorial in Hindi 2020',
         authImg: Thapalogo,
         authLink: 'https://www.youtube.com/playlist?list=PLwGdqUZWnOp0hSGwasCjbrWSPrEKqB_kz',
-        authName: 'Thapa Technical'
+        authName: 'Thapa Technical',
+        category: "Html",
+        skillLevel: "Intermediate"
     },
     {
         img: GGlogo,
         heading: 'Advance JavaScript (Hindi)',
         authImg: GFG,
         authLink: 'https://www.youtube.com/playlist?list=PLbGui_ZYuhihZ-pDxNZuQ7xOQ8IS2z3XI',
-        authName: 'Geeky Show'
+        authName: 'Geeky Show',
+        category: "Git",
+        skillLevel: "Advance"
     }
 ]
 export default GData

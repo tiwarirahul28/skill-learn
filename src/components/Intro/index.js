@@ -7,8 +7,8 @@ const Intro = () => {
     const [questions] = useState(introData)
     return (
         <>
-        <section className='home-section'>
-        <h1 className='introheading'>Welcome to Skill learn</h1>
+        <section className='home-section--faqs'>
+        <h1 className='introheading'>FAQs</h1>
             <div className='container'>
                 <h3>There may be a question on your mind</h3>
                 <section className="info">
