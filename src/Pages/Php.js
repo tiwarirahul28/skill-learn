@@ -1,32 +1,32 @@
 import React from 'react'
-import Cards from '../components/cards/CardBox'
 import Title from '../components/Title/Title'
-import GData from '../Data/GData'
+import Cards from '../components/cards/CardBox';
+import PhpData from '../Data/PhpData';
 
-const Git = () => {
+const Php = () => {
     return (
         <>
-        <section className="home-section open">
+        <section className='home-section'>
             <Title
-                Title="Advanced JavaScript"
+                Title="WordPress"
             />
             <div className="card">
-                {GData.map((value) => {
+                {PhpData.map((value)=>{
                     return(
-                        <Cards 
+                        <Cards
                             img={value.img}
                             heading={value.heading}
                             authImg={value.authImg}
                             authName={value.authName}
-                            authLink={value.authLink}
                             level={value.level}
+                            authLink={value.authLink}
                         />
                     )
                 })}
             </div>
-        </section> 
+        </section>    
         </>
     )
 }
 
-export default Git
+export default Php

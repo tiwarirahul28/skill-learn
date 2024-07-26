@@ -1,23 +1,21 @@
-import cssImgOne from '../assests/images/Css/css.svg';
+import cssTemplate from '../assests/images/Skill-learn-css.webp';
 import yblogo from '../assests/images/Html/yb-logo.jpg';
 import EJlogo from '../assests/images/Html/ej-logo.jpg';
 import TNNlogo from '../assests/images/Css/tnn-logo.jpg';
 import TGlogo from '../assests/images/Css/tg-logo.jpg';
-import Techcss from '../assests/images/Css/techcss.jpg';
-import Ninjacss from '../assests/images/Css/ninjacss.jpg';
-import EJcss from '../assests/images/Css/ejcss.jpg';
 
 const CssData = [
     {
-        img: cssImgOne,
+        img: cssTemplate,
         heading: 'CSS Tutorial in Hindi / Urdu',
         authImg: yblogo,
         level: "Basic",
         authLink: 'https://www.youtube.com/playlist?list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw',
         authName: 'Yahoo Baba'
     },
+
     {
-        img: EJcss,
+        img: cssTemplate,
         heading: 'CSS Tutorial For Beginners in Hindi',
         authImg: EJlogo,
         level: "Basic",
@@ -25,7 +23,7 @@ const CssData = [
         authName: 'EJ Media'
     },
     {
-        img: Techcss,
+        img: cssTemplate,
         heading: 'CSS Tutorial For Beginners in Hindi',
         authImg: TGlogo,
         level: "Basic",
@@ -33,7 +31,7 @@ const CssData = [
         authName: 'Tech Gun'
     },
     {
-        img: Ninjacss,
+        img: cssTemplate,
         heading: 'CSS Tutorials For Beginners',
         authImg: TNNlogo,
         level: "Basic",

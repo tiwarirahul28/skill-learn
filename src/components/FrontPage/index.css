@@ -55,7 +55,7 @@
 }
 
 .Featured--section{
-    height: auto;
+    height: 100vh;
     padding: 50px 20px;
 }
 .Featured--section .content span{
@@ -66,13 +66,13 @@
 }
 .Featured--section .content h2{
     font-weight: 500;
-    font-size: 44px;
-    line-height: 53.74px;
+    font-size: 36px;
+    line-height: 43.74px;
     color: #11101d;
     padding-bottom: 5px;
 }
 .Featured--section .content p{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 16px;
     line-height: 23.74px;
     color: #11101d;

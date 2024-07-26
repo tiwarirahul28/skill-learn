@@ -7,7 +7,7 @@ import IntroCard from "../components/Intro";
 const FrontPage = () => {
   return (
     <>
-      <section className="home-section">
+      <section className="home-section" style={{ padding: "0px" }}>
         {HomeData?.BannerData?.map((item, index) => {
           return (
             <Banner
